@@ -10,7 +10,7 @@ function Songlist(props) {
 
   return (
     
-    <div>
+    <div style={{ maxHeight: "22px"}}>
       
       <Link to={`/Song-List/${props.song.id}`}>{props.song.fields.title}</Link>
     
