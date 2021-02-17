@@ -6,6 +6,7 @@ function Nav() {
       <Link to="/">Barbacide</Link>
       <Link to="/Song-List">Song List</Link>
       <Link to="/new">Add A Song</Link>
+      <Link to="/Song-List/Delete">Delete A Song</Link>
     </nav>
   )
 }
