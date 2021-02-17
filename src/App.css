@@ -1,32 +1,104 @@
+* {
+  font-family: 'Reggae One', cursive;
+}
 
+body {
+  height: 100vh;
+  text-align: center;
+  background-color: #232020;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#root {
+  height: 100vh;
+}
 
 .App {
-  height: 100%;
-  text-align: center;
+  height: 100vh;
   display: grid;
   grid-template-areas:
   "n"
   "m"
+  "m"
+  "m"
   "f";
 }
 
+.list-button, .delete-button, .add-button {
+  padding: 50px;
+  margin: 10px;
+  font-size: xx-large;
+}
+
+.nav-link {
+  height: 100px;
+}
 
 
 .main {
   grid-area: m;
-  
+  background-color: #808285;
+  display: grid;
+  align-content: center;
+  height: 650px;
+}
+
+.home-click {
+  justify-self: center;
+  align-self: center;
+  display: grid;
+  grid-template-rows: 1fr;
 }
 
 .footer {
   grid-area: f;
-
+  background-color: #232020;
 }
 
 nav {
   grid-area: n;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #232020;
+  
 }
 
+#logo-container {
+  height: 200px;
+}
 
+form {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  margin-bottom: 100px ;
+}
+
+#submit-button {
+  margin-top: 20px;
+  
+}
+
+.songs-container {
+  display: grid;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+#list-delete-button {
+  margin-bottom: 0;
+}
+
+#list-delete-div {
+  justify-self: end;
+  align-self: end;
+}
+
+.github-logo {
+  height: 100px;
+}
 

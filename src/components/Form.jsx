@@ -36,7 +36,7 @@ function Form(props) {
       <input value={artist} onChange={(e) => setArtist(e.target.value)}></input>
       <label>Author</label>
       <input value={author} onChange={(e) => setAuthor(e.target.value)}></input>
-      <button type="submit">Add Song</button>
+      <button id="submit-button" type="submit">Add Song</button>
     </form>
   )
 }

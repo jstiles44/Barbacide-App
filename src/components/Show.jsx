@@ -8,7 +8,7 @@ function Show(props) {
     song.id === params.id)
   // console.log(song)
   if (!song) {
-    return <h4>Loading...</h4>
+    return <h4></h4>
   }
 
 
