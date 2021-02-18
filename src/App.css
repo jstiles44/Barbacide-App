@@ -63,6 +63,7 @@ a {
 .footer {
   grid-area: f;
   background-color: #232020;
+  background-image: linear-gradient(to bottom, #232020, #2A2828);
 }
 
 nav {
@@ -144,14 +145,17 @@ form {
 
 .list-button {
   border: 2px solid #E81D22;
+  width: 370px;
 }
 
 .add-button {
   border: 2px solid #E81D22;
+  width: 370px;
 }
 
 .delete-button {
   border: 2px solid #E81D22;
+  width: 370px;
 }
 
 button {
@@ -196,4 +200,37 @@ button:hover {
 
 ::-webkit-scrollbar-corner {
   background-color: #464749;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: grid;
+    grid-template-areas: 
+    "b"
+    "g";
+  }
+
+  .nav-links {
+    grid-area: g;
+    display: grid;
+    grid-template-areas:
+    "l a d"
+  }
+
+  #add-a-song {
+    grid-area: a;
+  }
+  
+  #delete-a-song {
+    grid-area: d;
+  }
+  
+  #logo-container {
+    grid-area: b;
+    height: 100px;
+  }
+
+  #logo {
+    height: 50%;
+  }
 }
