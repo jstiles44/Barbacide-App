@@ -40,7 +40,7 @@ function App() {
 
         <Route exact path="/Song-List">
           <h1>Song List</h1>
-          <div style={{ maxHeight: "400px", overflow: "scroll", scrollbarColor: "red" }}className="songs-container">
+          <div style={{ maxHeight: "400px", overflow: "scroll" }}className="songs-container">
             {songs.map((song) => (
               <Songlist
                 key={song.id}
@@ -65,7 +65,9 @@ function App() {
         
         </Route>
         <Route exact path="/Song-List/:id">
+          <div className="show-container" style={{ maxHeight: "600px", overflow: "scroll" }} >
           <Show songs={songs} />
+          </div>
           <Link to="/Song-List">
           <button>Return To Song List</button>
           </Link>

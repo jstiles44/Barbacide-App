@@ -46,7 +46,7 @@ a {
   background-color: #808285;
   display: grid;
   align-content: center;
-  height: 650px;
+  height: 725px;
   position: relative;
   
 
@@ -65,17 +65,49 @@ a {
 }
 
 nav {
+  height: 150px;
   /* grid-area: n; */
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #232020;
- 
+  grid-template-areas: 
+  "b t t t t g";
+}
 
+.nav-links {
+  top: -50px;
+  grid-area: g;
+  display: grid;
+  grid-template-areas:
+  "l"
+  "a"
+  "d";
   
 }
 
+#song-list {
+  height: 50px;
+  grid-area: l;
+  position: relative;
+  bottom: -12px;
+}
+
+#add-a-song {
+  height: 50px;
+  grid-area: a;
+  position: relative;
+  bottom: -12px;
+}
+
+#delete-a-song {
+  height: 50px;
+  grid-area: d;
+  position: relative;
+  bottom: -12px;
+}
+
 #logo-container {
-  height: 200px;
+  grid-area: b;
+  height: 150px;
 }
 
 form {
@@ -116,7 +148,8 @@ form {
 }
 
 button {
-
+  background-color: #EFF2EF;
+  border-radius: 12px;
 }
 
 /* width */

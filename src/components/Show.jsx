@@ -6,16 +6,22 @@ function Show(props) {
   const params = useParams()
   const song = props.songs.find((song) => 
     song.id === params.id)
-  // console.log(song)
+  
+  
+
   if (!song) {
     return <h4></h4>
   }
 
+ 
+  
+  
+  
 
   return (
     <div>
       <h3>{song.fields.title}</h3>
-      <h5>{song.fields.lyrics}</h5>
+      <pre>{song.fields.lyrics}</pre>
     </div>
   )
 }
