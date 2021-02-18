@@ -19,7 +19,7 @@ function Show(props) {
   
 
   return (
-    <div>
+    <div className="lyrics-container">
       <h3>{song.fields.title}</h3>
       <pre>{song.fields.lyrics}</pre>
     </div>

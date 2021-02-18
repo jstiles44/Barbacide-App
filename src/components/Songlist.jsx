@@ -12,7 +12,7 @@ function Songlist(props) {
     
     <div >
       
-      <Link to={`/Song-List/${props.song.id}`}>{props.song.fields.title}</Link>
+      <Link className="song-title" to={`/Song-List/${props.song.id}`}>{props.song.fields.title}</Link>
     
       
     </div>

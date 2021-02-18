@@ -176,6 +176,11 @@ button:hover {
   align-self: right;
   justify-self: right;
   background-image: linear-gradient(to bottom, #EFF2EF, #E81D22);
+  font-size: larger;
+}
+
+.song-title {
+  font-size: larger;
 }
 
 /* width */
@@ -232,5 +237,10 @@ button:hover {
 
   #logo {
     height: 50%;
+  }
+
+  #lyrics-container {
+    width: 100vw;
+    height: 100vh
   }
 }

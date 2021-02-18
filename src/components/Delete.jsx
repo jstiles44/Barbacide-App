@@ -12,8 +12,8 @@ function Delete(props) {
 
 
   return (
-    <div>
-      <Link to={`/Song-List/Delete`}>{props.song.fields.title}</Link>
+    <div className="delete-div">
+      <Link className="song-title" to={`/Song-List/Delete`}>{props.song.fields.title}</Link>
       <button className="delete-song-button" onClick={deleteSong}>Delete Song</button>
     </div>
   )
