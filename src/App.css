@@ -6,6 +6,8 @@ body {
   height: 100vh;
   text-align: center;
   background-color: #232020;
+ 
+  
 }
 
 a {
@@ -45,6 +47,9 @@ a {
   display: grid;
   align-content: center;
   height: 650px;
+  position: relative;
+  
+
 }
 
 .home-click {
@@ -60,10 +65,12 @@ a {
 }
 
 nav {
-  grid-area: n;
+  /* grid-area: n; */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #232020;
+ 
+
   
 }
 
@@ -102,3 +109,36 @@ form {
   height: 100px;
 }
 
+.delete-song-button {
+  margin-left: 10px;
+  align-self: right;
+  justify-self: right;
+}
+
+button {
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #808285;
+  
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #232020;
+  
+  border-radius: 10px;
+
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #808285;
+}
