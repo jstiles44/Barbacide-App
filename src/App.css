@@ -241,6 +241,17 @@ button:hover {
 
   #lyrics-container {
     width: 100vw;
-    height: 100vh
   }
+
+  .delete-div {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .delete-song-button {
+   justify-self: center;
+   align-self: center;
+  }
+
+  
 }
