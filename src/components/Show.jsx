@@ -6,7 +6,7 @@ function Show(props) {
   const params = useParams()
   const song = props.songs.find((song) => 
     song.id === params.id)
-  
+  // console.log(song.fields.lyrics.length)
   
 
   if (!song) {
@@ -21,7 +21,7 @@ function Show(props) {
   return (
     <div className="lyrics-container">
       <h3>{song.fields.title}</h3>
-      <pre>{song.fields.lyrics}</pre>
+      <pre className={(song.fields.lyrics.length < 650 ? "one-collumn" : "two-collumn")}>{song.fields.lyrics}</pre>
     </div>
   )
 }

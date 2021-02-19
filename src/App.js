@@ -57,7 +57,7 @@ function App() {
         </Route>
         <Route exact path="/Song-List/Delete">
           <h1>Song List</h1>
-          <div style={{ maxHeight: "350px", overflow: "scroll"}}className="songs-container" id="songs-container-delete">
+          <div style={{ maxHeight: "350px", overflow: "scroll"}} className="songs-container" id="songs-container-delete">
           {songs.map((song) => (
             <Delete key={song.id} song={song} setToggleFetch={setToggleFetch} />
           ))}
@@ -65,7 +65,7 @@ function App() {
         
         </Route>
         <Route exact path="/Song-List/:id">
-          <div className="show-container" style={{ maxHeight: "600px", overflow: "scroll" }} >
+          <div className="show-container" style={{ maxHeight: "600px" }} >
           <Show songs={songs} />
           </div>
           <Link to="/Song-List">
