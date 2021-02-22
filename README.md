@@ -98,15 +98,15 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Basic React App | H | 1hrs| 0hrs | 0hrs |
-| Working with API | H | 3hrs| 0hrs | 0hrs |
-| Building HomePage | H | 3hrs| 0hrs | 0hrs |
-| Building Song List Page | H | 3hrs| 0hrs | 0hrs |
-| Building Lyric Display Page | H | 3hrs| 0hrs | 0hrs |
-| Building Add A Song Form | H | 3hrs| 0hrs | 0hrs |
-| Styling | H | 3hrs| 0hrs | 0hrs |
-| Styling | H | 3hrs| 0hrs | 0hrs |
-| Total | H | 22hrs| 0hrs | 0hrs |
+| Basic React App | H | 1hrs| 0.5hrs | 0.5hrs |
+| Working with API | H | 3hrs| 2hrs | 2hrs |
+| Building HomePage | H | 3hrs| 3hrs | 3hrs |
+| Building Song List Page | H | 3hrs| 2hrs | 2hrs |
+| Building Lyric Display Page | H | 3hrs| 5hrs | 5hrs |
+| Building Add A Song Form | H | 3hrs| 1hrs | 1hrs |
+| Styling | H | 3hrs| 3hrs | 3hrs |
+| Styling | H | 3hrs| 3hrs | 3hrs |
+| Total | H | 22hrs| 19.5hrs | 19.5hrs |
 
 ## SWOT Analysis
 
