@@ -83,11 +83,11 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 15-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 16| Project Approval | Incomplete
-|Feb 16-17| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 16-18| Pseudocode / actual code | Incomplete
-|Feb 17-18| MVP | Incomplete
+|Feb 15-16| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Feb 16| Project Approval | complete
+|Feb 16-17| Core Application Structure (HTML, CSS, etc.) | complete
+|Feb 16-18| Pseudocode / actual code | complete
+|Feb 17-18| MVP | complete
 
 
 ## Timeframes
