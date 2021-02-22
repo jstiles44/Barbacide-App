@@ -13,7 +13,7 @@ function Delete(props) {
 
   return (
     <div className="delete-div">
-      <Link className="song-title" to={`/Song-List/Delete`}>{props.song.fields.title}</Link>
+      <Link className="song-title" to={`/song-list/delete`}>{props.song.fields.title}</Link>
       <button className="delete-song-button" onClick={deleteSong}>Delete Song</button>
     </div>
   )

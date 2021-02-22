@@ -4,20 +4,17 @@ import { baseURL, config } from "../services"
 import { Link } from "react-router-dom"
 
 
-function Songlist(props) {
+function SongList(props) {
 
   
 
   return (
     
     <div >
-      
-      <Link className="song-title" to={`/Song-List/${props.song.id}`}>{props.song.fields.title}</Link>
-    
-      
+      <Link className="song-title" to={`/song-list/${props.song.id}`}>{props.song.fields.title}</Link>
     </div>
    
   )
 }
 
-export default Songlist
+export default SongList

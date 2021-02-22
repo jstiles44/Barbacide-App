@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Clickadd(props) {
+function ClickAdd(props) {
   return (
     <Link to="/new">
       <button className="add-button">Add A Song</button>
@@ -8,4 +8,4 @@ function Clickadd(props) {
   )
 }
 
-export default Clickadd
+export default ClickAdd
