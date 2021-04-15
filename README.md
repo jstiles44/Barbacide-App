@@ -90,34 +90,3 @@ This schedule will be used to keep track of your progress throughout the week an
 |Feb 17-18| MVP | complete
 
 
-## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Basic React App | H | 1hrs| 0.5hrs | 0.5hrs |
-| Working with API | H | 3hrs| 2hrs | 2hrs |
-| Building HomePage | H | 3hrs| 3hrs | 3hrs |
-| Building Song List Page | H | 3hrs| 2hrs | 2hrs |
-| Building Lyric Display Page | H | 3hrs| 5hrs | 5hrs |
-| Building Add A Song Form | H | 3hrs| 1hrs | 1hrs |
-| Styling | H | 3hrs| 3hrs | 3hrs |
-| Styling | H | 3hrs| 3hrs | 3hrs |
-| Total | H | 22hrs| 19.5hrs | 19.5hrs |
-
-## SWOT Analysis
-
-### Strengths:
-I have a good idea for what I want my site to do.  I know what labs and exercises show similar situations to my site, and I will use them as references when working through the site. 
-
-### Weaknesses:
-I feel like I am stronger user functional components than class components.  If time permits I would like to add at least one class component to my project for practice. 
-
-### Opportunities:
-This is an opportunity to cement concepts learned over the first five weeks of the course.  This app will also serve as a very useful tool for my band. 
-
-### Threats:
-I tend to try to solve problems by myself even if others can lead me to an answer faster.  I will focus on knowing when to ask for help and managing my time efficiently
