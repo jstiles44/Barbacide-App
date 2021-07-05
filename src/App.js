@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Delete from "./components/Delete";
 import "./App.css";
 import ClickDelete from "./components/ClickDelete";
-import Typeahead from "./components/Typeahead"
+import Typeahead from "./components/Typeahead";
 
 function App() {
   const [songs, setSongs] = useState([]);
