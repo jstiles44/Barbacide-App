@@ -83,41 +83,10 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Feb 15-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Feb 16| Project Approval | Incomplete
-|Feb 16-17| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Feb 16-18| Pseudocode / actual code | Incomplete
-|Feb 17-18| MVP | Incomplete
+|Feb 15-16| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Feb 16| Project Approval | complete
+|Feb 16-17| Core Application Structure (HTML, CSS, etc.) | complete
+|Feb 16-18| Pseudocode / actual code | complete
+|Feb 17-18| MVP | complete
 
 
-## Timeframes
-
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all parts of your app.  Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the app must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add an additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Basic React App | H | 1hrs| 0hrs | 0hrs |
-| Working with API | H | 3hrs| 0hrs | 0hrs |
-| Building HomePage | H | 3hrs| 0hrs | 0hrs |
-| Building Song List Page | H | 3hrs| 0hrs | 0hrs |
-| Building Lyric Display Page | H | 3hrs| 0hrs | 0hrs |
-| Building Add A Song Form | H | 3hrs| 0hrs | 0hrs |
-| Styling | H | 3hrs| 0hrs | 0hrs |
-| Styling | H | 3hrs| 0hrs | 0hrs |
-| Total | H | 22hrs| 0hrs | 0hrs |
-
-## SWOT Analysis
-
-### Strengths:
-I have a good idea for what I want my site to do.  I know what labs and exercises show similar situations to my site, and I will use them as references when working through the site. 
-
-### Weaknesses:
-I feel like I am stronger user functional components than class components.  If time permits I would like to add at least one class component to my project for practice. 
-
-### Opportunities:
-This is an opportunity to cement concepts learned over the first five weeks of the course.  This app will also serve as a very useful tool for my band. 
-
-### Threats:
-I tend to try to solve problems by myself even if others can lead me to an answer faster.  I will focus on knowing when to ask for help and managing my time efficiently
