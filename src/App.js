@@ -12,6 +12,7 @@ import Footer from "./components/Footer";
 import Delete from "./components/Delete";
 import "./App.css";
 import ClickDelete from "./components/ClickDelete";
+import Typeahead from "./components/Typeahead"
 
 function App() {
   const [songs, setSongs] = useState([]);
@@ -23,6 +24,7 @@ function App() {
       setSongs(resp.data.records);
     };
     getSongs();
+    // console.log(songs)
   }, [toggleFetch]);
 
   return (
@@ -39,6 +41,7 @@ function App() {
 
         <Route exact path="/song-list">
           <h1>Song List</h1>
+       
           <div style={{ maxHeight: "400px", overflow: "scroll" }}className="songs-container">
             {songs.map((song) => (
               <SongList
@@ -75,6 +78,9 @@ function App() {
           <h1>Add A Song</h1>
           <Form songs={songs} setToggleFetch={setToggleFetch} />
         </Route>
+        <Route exact path="/search">
+            <Typeahead songs={songs} />
+        </Route> 
       </div>
       <div className="footer">
         <Footer />

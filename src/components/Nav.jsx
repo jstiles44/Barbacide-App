@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import img1 from "../Images/Barbacidelogo.png";
 
 function Nav() {
   return (
@@ -7,7 +8,7 @@ function Nav() {
         <img
           style={{ height: "100%" }}
           id="logo"
-          src={`https://photos.smugmug.com/photos/i-rRWr4zB/0/899e3c59/S/i-rRWr4zB-S.png`}
+          src={img1}
           alt="Barbacide"
         />
       </Link>
